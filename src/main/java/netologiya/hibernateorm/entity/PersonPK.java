@@ -1,10 +1,18 @@
-  public class PersonPK {
+  public class PersonPK implements Serializable {
+    
+    // need to override equals and hashcode!
     
     private String name;
     
     private String surname;
     
     private int age;
+    
+    public PersonPK(String name, String surname, int age) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+    }
     
     public void setName(String name) {
         this.name = name;
