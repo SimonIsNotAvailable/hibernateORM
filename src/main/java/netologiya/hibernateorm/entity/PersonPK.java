@@ -16,6 +16,8 @@ public class PersonPK implements Serializable {
         this.surname = surname;
         this.age = age;
     }
+    public PersonPK() {
+    }
     
     public void setName(String name) {
         this.name = name;

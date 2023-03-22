@@ -1,4 +1,4 @@
-INSERT INTO public.persons (name, surname, age, phone_number, city_of_living)
+INSERT INTO public.persons (name, surname, age, phone_number, city)
 VALUES ('Simon', 'Polushkin', 30, 123412313, 'Perm'),
        ('Karl', 'Jung', 99, 12132121, 'Moscow'),
        ('Arkadiy', 'Simonov', 14, 333222111, 'Moscow'),

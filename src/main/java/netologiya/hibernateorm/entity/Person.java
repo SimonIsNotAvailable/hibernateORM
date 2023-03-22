@@ -2,10 +2,12 @@ package netologiya.hibernateorm.entity;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
+
 @Entity
 @Table(name="persons")
 @IdClass(PersonPK.class)
-public class Person {
+public class Person implements Serializable {
     @Id
     @Column
     private String name;
