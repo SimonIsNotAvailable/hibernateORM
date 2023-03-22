@@ -1,4 +1,7 @@
-  public class PersonPK implements Serializable {
+package netologiya.hibernateorm.entity;
+import java.io.Serializable;
+
+public class PersonPK implements Serializable {
     
     // need to override equals and hashcode!
     
