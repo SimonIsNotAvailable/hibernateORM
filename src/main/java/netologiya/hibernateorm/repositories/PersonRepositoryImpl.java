@@ -13,9 +13,9 @@ public class PersonRepositoryImpl implements PersonRepository {
     @PersistenceContext
     private EntityManager entityManager;
     private String query = "select p from Person p where p.city= :city";
-    @Autowired
-    public PersonRepositoryImpl() {
-    }
+//     @Autowired
+//     public PersonRepositoryImpl() {
+//     }
 
     @Override
     public List<Person> getPersonByCity(String city) {
