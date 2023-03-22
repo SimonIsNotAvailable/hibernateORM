@@ -7,6 +7,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="persons")
+@IdClass(PersonPK.class)
 public class Person {
     @Id
     @Column
@@ -23,7 +24,6 @@ public class Person {
     private String city;
 
     public Person (){
-
     }
 
     public String getSurname() {
