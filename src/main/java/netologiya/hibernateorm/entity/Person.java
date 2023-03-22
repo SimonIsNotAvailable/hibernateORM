@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name="persons")
 @IdClass(PersonPK.class)
-public class Person {
+public class Person implements Serializable{
     @Id
     @Column
     private String name;
